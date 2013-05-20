@@ -1,0 +1,58 @@
+body {
+	background-color: #B0C1B0;
+	background-image: url('background.jpg');
+	background-repeat: repeat-y;
+	margin: 0px;
+	padding: 0px;
+}
+
+div, p {
+	margin: 0px;
+	padding: 0px;
+}
+
+div#page {
+	width: 750px;
+}
+
+div#header {
+	margin: 20px 96px 20px 80px;
+}
+
+div#applet {
+	margin: 20px 96px 0px 80px;
+	border: 1px solid #8E8E8E;
+	width: 490px;
+	height: 280px;
+}
+
+div#instructionsImage {
+	margin: 30px 96px 5px 80px;
+}
+
+p#requirements {
+	margin: 5px 180px 10px 0px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	line-height: 110%;
+	color: #8E8E8E;
+	text-align: right;
+}
+
+p#instructions {
+	margin: 5px 180px 20px 80px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 130%;
+	color: #8E8E8E;
+}
+
+a {
+	color: #3F783F;
+	text-decoration: underline;
+}
+
+a:hover {
+	background-color: #B0C1B0;
+	color: #FFFFFF;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<title>Image-based Visual Hulls</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+		<link rel="stylesheet" href="styles.css" type="text/css"/>
+	</head>
+	<body>
+		<div id="page">
+			<div id="header">
+				<img src="title.gif" alt="Image-based Visual Hulls"/>
+			</div>
+			<div id="applet">
+				<applet code="IBVHApplet.class" width="490" height="280"></applet>
+			</div>
+			<p id="requirements">
+				Requires version 1.5.0 of the Java Runtime Environment, available from <a href="http://java.sun.com/">Sun Microsystems</a>.
+			</p>
+			<div id="instructionsImage">
+				<img src="instructions.gif" alt="Instructions"/>
+			</div>
+			<p id="instructions">
+				On the left, the available reference images are shown in the
+				tree view. The camera parameters for the images are calculated
+				in advance, so you do not have to input anything but the position
+				and direction of the desired view that you want to render. To do
+				this, simply click on the view pane (the image area to the
+				right of the tree view), move the mouse cursor to rotate the
+				camera and click again. At this point, the program will start
+				calculating the visual hull of the object. This will probably
+				take some time, and a progress bar will indicate how far along
+				the process has come. When the calculations are complete, the
+				image area is updated with the rendered novel view of the object.
+				In this version, a depth map of the object is what is rendered.
+				In the stand-alone application, it is possible to render the
+				object using a simple (and buggy) implementation of
+				view-dependent texture mapping which uses the information in
+				the reference images to shade the rendered object.<br/><br/>
+				If you are interested in knowing more about this project,
+				the <a href="IBVH_src-refs_20050321.zip">source code</a> and
+				<a href="report_ibvh.pdf">project report</a> are available for
+				download.
+			</p>
+		</div>
+	</body>
+</html>
